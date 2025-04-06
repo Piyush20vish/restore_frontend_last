@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F9F7F3;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #0FA3B1;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 2px solid #0FA3B1;
+    background-color: white;
+    color: #0FA3B1;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background-color: #B5E2FA;
+    color: #0F172A;
+}
+
+.section {
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.section:hover {
+    transform: scale(1.01);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #F7A072;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #EDDEA4;
+    color: #000;
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.brands a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #B5E2FA;
+    padding: 15px;
+    border-radius: 10px;
+    width: 120px;
+    transition: 0.3s;
+}
+
+.brands a:hover {
+    background-color: #F7A072;
+    color: white;
+}
+
+.brands img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+#chatbox {
+    background: #B5E2FA;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.footer {
+    text-align: center;
+    color: #888;
+    background: #0FA3B1;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
